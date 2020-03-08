@@ -7,5 +7,5 @@ if [[ -d ${UP} ]]; then
 fi
 
 #Upload to Gdrive
-mkdir -p "/content/drive/My Drive/$(dirname "${CLD_PATH}")"
-mv "${UP}" "/content/drive/My Drive/${CLD_PATH}"
+mkdir -p "/content/drive/Shared drives/MOVIE&TV NAS/$(dirname "${CLD_PATH}")"
+mv "${UP}" "/content/drive/Shared drives/MOVIE&TV NAS/${CLD_PATH}"
